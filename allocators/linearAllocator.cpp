@@ -261,4 +261,11 @@ int main() {
     for (auto i: v) {
         cout << i << endl;
     }
+
+    // linearAllocator<int> myalloc;
+    // int *x = myalloc.allocate(3);
+    // int *y = myalloc.allocate(3);
+    // myalloc.deallocate(x, 1);
+    // int *z = myalloc.allocate(1);
+
 }
